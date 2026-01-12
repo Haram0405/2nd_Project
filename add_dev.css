@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    margin: auto;
+    align-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 35%;
+    font-size: 25px;
+}
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(32, 32, 32);
+    background-color: rgb(240, 168, 135);
+}
+.basic_info input{
+    padding: 10px;
+    border: solid;
+    border-radius: 30px;
+    border-color: rgba(0, 0, 0, 0.747);
+    margin: 10px;
+    border-width: 2px;
+    background-color: whitesmoke;
+}
+.basic_info input:hover{
+    background-color: transparent;
+}
+.resume{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.professional_info input{
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.747);
+    margin: 10px;
+    border-width: 2px;
+    background-color: whitesmoke;
+}
+.professional_info input:hover{
+    background-color: transparent;
+}
+.professional_info textarea{
+    padding: 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.747);
+    margin: 10px;
+    border-width: 2px;
+    background-color: whitesmoke;
+}
+.professional_info textarea:hover{
+    background-color: transparent;
+}
+.links input{
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.747);
+    margin: 10px;
+    border-width: 2px;
+    background-color: whitesmoke;
+}
+.links input:hover{
+    background-color: transparent;
+}
+.exp label{
+    font-size: 20px;
+}
+button{
+    height: 30px;
+    width: 30%;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(235, 154, 117);
+    color: white;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: rgb(240, 136, 87) ;
+}

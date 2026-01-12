@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.nav-link{
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.form-control{
+    margin: 10px;
+    margin-right: -45px;
+    padding: 5px;
+    border-color: rgb(235, 154, 117);
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(235, 154, 117);
+}
+.btn0{
+    height: 40px;
+    width: 50%;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(235, 154, 117);
+    color: white;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+}
+.btn0:hover{
+    background-color: rgb(240, 136, 87) ;
+}
+.main{
+    background: url(bg1.png)no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-weight: 700;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.btn-primary{
+    background-color: rgb(235, 154, 117);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 15px;
+    height: 35px;
+    width: 23%;
+    font-weight: bold;  
+    margin-top: 30px; 
+}
+.btn-primary:hover{
+    background-color: rgb(240, 136, 87) ;
+}
+.About{
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 50px;
+}
+.About h1{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.About p{
+    font-size: 25px;
+    margin-top: 20px ;
+}
+.About img{
+    width: 30rem;
+    margin: 30px;
+    padding: 20px;
+}
+.cards{
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    background-color: bisque;
+    background-size: cover;
+    height: 100vh;
+}
+.cards h1{
+    background-color: bisque;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+.card-body{
+    background-color: beige;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-body button{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: rgb(235, 154, 117);
+    border-radius: 10px;
+    height: 40px;
+    width: 30%;
+}
+.card-body button:hover{
+    background-color: rgb(240, 136, 87) ;
+}
+.contact{
+    background-color: bisque;
+    height: 100vh;
+    margin-top: 50px;
+}
+.contact h1{
+    background-color: bisque;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    text-align: center;
+}
+.contact h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bold;
+}
+.contact p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.contact input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    width: 60%;
+}
+.contact textarea{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+    width: 60%;
+    border-radius: 10px;
+}
